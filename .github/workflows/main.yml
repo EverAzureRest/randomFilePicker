@@ -1,0 +1,32 @@
+name: Build
+
+on:
+  push:
+    branches: [ dev, main ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  dotnet-version: "3.1.x"
+
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 'Checkout Github Action'
+        id: 'checkout'
+        uses: actions/checkout@v2
+
+      - name: setup-dotnet
+        id: 'setup'
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: ${{ env.dotnet-version }}
+
+      - name: build-dotnet
+        id: 'build'
+        run: dotnet build .
+
