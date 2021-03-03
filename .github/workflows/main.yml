@@ -25,8 +25,5 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: ${{ env.dotnet-version }}
-
-      - name: build-dotnet
-        id: 'build'
         run: dotnet-build .
 
