@@ -8,6 +8,12 @@
 
 A simple .NET core CLI program that simply scans all files in a target directory and opens a random file with it's registered file handler.
 
+## Build
+
+```bash
+dotnet build . --configuration Release
+```
+
 ## Usage
 
 ```bash
