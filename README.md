@@ -2,7 +2,7 @@
 
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/EverAzureRest/randomFilePicker/Build/dev?label=devbuild&style=plastic)
 
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/EverAzureRest/randomFilePicker/Build/main?label=build&style=plastic)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/EverAzureRest/randomFilePicker/Build/main?label=production%20build&style=plastic)
 
 ![Project License](https://img.shields.io/badge/license-MIT-blue)
 
