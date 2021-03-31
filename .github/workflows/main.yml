@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 env:
-  dotnet-version: "3.1.x"
+  dotnet-version: "5.0.x"
 
 
 jobs:
