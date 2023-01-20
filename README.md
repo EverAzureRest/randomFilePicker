@@ -1,8 +1,6 @@
 # Random File Picker
 
-![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/EverAzureRest/randomFilePicker/Build/dev?label=devbuild&style=plastic)
-
-![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/EverAzureRest/randomFilePicker/Build/main?label=production%20build&style=plastic)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/EverAzureRest/randomFilePicker/main.yml)
 
 ![Project License](https://img.shields.io/badge/license-MIT-blue)
 
